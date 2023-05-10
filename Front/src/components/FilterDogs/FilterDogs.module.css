@@ -1,0 +1,76 @@
+
+
+.filters {
+  margin: 20px;
+}
+
+.formRow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 2%;
+}
+
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.select {
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  width: 7em;
+}
+
+.select:hover{
+  background-color: #fe5735c2;
+}
+
+.buttonFilter {
+  margin-top: 1%;
+  margin-left: 0.5%;
+  width: 6.2%;
+  padding: 5px;
+  background-color: #fe5535;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.buttonFilter:hover {
+  background-color: #d43535;
+}
+
+
+ @media (max-width: 1366px) { 
+  .buttonFilter {
+    margin-top: 1%;
+    margin-left: 0.6%;
+    width: 9%;
+    padding: 5px;
+    background-color: #fe5535;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+
+  .formRow {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1%;
+  }
+  
+  .buttonFilter:hover {
+    background-color: #d43535;
+  }
+} 
+  

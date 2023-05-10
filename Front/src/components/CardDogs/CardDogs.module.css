@@ -1,0 +1,269 @@
+@font-face {
+  font-family: 'Sunny Sunday';
+  src: url('../../assets/Fuentes/Sunny Sunday.ttf') format('truetype');
+  /* Agrega más formatos de archivo si es necesario */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* .cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+	width: 250px;
+	height: 300px;
+	perspective: 800px;
+}
+.card__inner {
+	position: relative;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: transform 0.5s;
+}
+.card:hover .card__inner {
+	transform: rotateY(180deg);
+}
+.card__body {
+	position: absolute;
+	inset: 0;
+	display: grid;
+	place-items: center;
+	backface-visibility: hidden;
+	border-radius: 8px;
+	box-shadow: 0 5px 10px 
+		rgba(0, 0, 0, 0.15);
+    background-color: #fae2433a;
+}
+
+.card__body--back {
+	background-image: linear-gradient(
+		-20deg, #fae2433a 0%,
+    #fae2433a 100%);
+	transform: rotateY(180deg);
+}
+
+.card__img {
+  width: 230px;
+  height: 300px;
+  object-fit: contain;
+} */
+
+/*-----------------------------------*/
+/* ESTILOS PARA GESTIÓN DE PERROS */
+
+.containerAll{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.containerAdmin {
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+.cardAdmin {
+  width: 300px;
+  max-width: 100%; 
+  background: #f5f5f5;
+  overflow: visible;
+  box-shadow: 0 5px 20px 2px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%; 
+}
+
+.cardInfoAdmin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  padding: 0 1rem;
+}
+
+.cardImgAdmin {
+  --size: 100px;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  transform: translateY(-50%);
+  background: #42caff;
+  background: linear-gradient(to bottom, #42caff 0%, #e81aff 100%);
+  position: relative;
+  transition: all .3s ease-in-out;
+}
+
+.cardImgAdmin:before {
+  content: "";
+  border-radius: inherit;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  height: 90%;
+  transform: translate(-50%, -50%);
+  border: 1rem solid #e8e8e8;
+}
+
+.textTitleAdmin {
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #fe5535;
+  letter-spacing: 0.05rem;
+}
+
+.textBodyAdmin {
+  font-size: .8em;
+  text-align: center;
+  color: #6f6d78;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.cardImgAdmin:hover {
+  --size: 110px;
+  width: var(--size);
+  height: var(--size);
+}
+
+.button {
+  margin-top: -10%;
+  padding: 0.50rem;
+  border: 1px solid black;
+  border-radius: 0.25rem;
+  background-color: #fe5535;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100px;
+  margin-right: 10px; 
+}
+
+.button:last-child {
+  margin-right: 0;
+}
+
+
+
+
+/* CARDS DE DOGSS EN "PERROS" */
+
+.card {
+  position: relative;
+  width: 220px;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.img {
+  position: absolute;
+  width: 220px;
+  height: 320px;
+  border-radius: 15px;
+  cursor: pointer;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card::before,
+.card::after {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #fae243a3;
+  transition: all 0.5s;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+}
+
+/* .card::before {
+  z-index: 1;
+  top: 0;
+  left: 0;
+  border-radius: 15px 0 100% 0;
+} */
+
+.card::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+}
+
+.card:hover::before,
+.card:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.card:hover .card2 {
+  opacity: 1;
+  visibility: visible;
+}
+.card2 {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.1s;
+}
+
+
+.containerData {
+  padding: 10px;
+  
+  margin-left: -40%;
+}
+
+.h4 {
+  border-radius: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.p {
+  font-size: 18px;
+  margin-top: -24%;
+  margin-left: 80%;
+}
+
+.h2 {
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+  margin-top: -50%;
+  font-weight: bold;
+  font-size: 40px;
+  color: #ffffff;
+}
+.customloader {
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background:conic-gradient(#0000 10%,#827700);
+  -webkit-mask:radial-gradient(farthest-side,#0000 calc(100% - 8px),#000 0);
+  mask:radial-gradient(farthest-side,#0000 calc(100% - 8px),#000 0);
+  animation:s3 0.5s infinite linear;
+}
+@keyframes s3 {to{transform: rotate(1turn)}}

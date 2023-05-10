@@ -1,0 +1,28 @@
+.container{
+  display: flex;
+  justify-content: center;
+  top: 100%;
+  margin-bottom: 1%;
+}
+
+.button {
+    margin-top: 20px;
+    padding: 5px 5px;
+    background-color: #fe5535;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 2%;
+    height: 2%;
+  }
+  
+  .button:hover {
+    background-color: #d43535;
+  }
+
+  .span {
+    margin-top: 20px;
+    padding: 4px;
+    font-size: 20px;
+  }

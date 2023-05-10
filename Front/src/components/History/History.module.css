@@ -1,0 +1,289 @@
+/* .fondo {
+  width: 99.9vw;
+  height: 86.5vh;
+  background-color: #fff29a;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 70px;
+  color: black;
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+
+.containerText{
+  display: flex;
+  justify-content: end;
+}
+
+.text {
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.4);
+  max-width: 40%;
+  font-size: 1.2rem;
+  text-align:justify;
+  border: 1px solid black; 
+  padding: 10px;
+  display: flex;
+  margin-right: 6rem;
+}
+
+.containerImg{
+  display: flex;
+  justify-content: start;
+}
+
+.img {
+  margin-left: 16rem;
+  margin-top: -14.5rem;
+  width: 500px;
+  height: 400px;
+  padding: 1rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+.img:hover {filter: saturate(180%);}
+
+@media screen and (max-width: 480px) {
+  .fondo {
+    width: 95.4vw;
+    height: 135vh;
+    text-align: center;
+    background-color: #fff29a;
+    padding: 2rem;
+  }
+
+  .containerText{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 19.1px;
+    font-weight: 900;
+  }
+  
+  .text {
+    max-width: 100%;
+    margin-right: 0;
+  }
+  
+  .img {
+    margin-left: 0;
+    margin-top: 2rem;
+    width: 100%;
+    height: auto;
+  }
+} */
+
+@font-face {
+  font-family: 'Cat Paw';
+  src: url('../../assets/Fuentes/Cat Paw.ttf') format('truetype');
+  /* Agrega más formatos de archivo si es necesario */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('../../assets/Fuentes/Roboto-Regular.ttf') format('truetype');
+  /* Agrega más formatos de archivo si es necesario */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fondo {
+  width: 99.1vw;
+  height: 90vh;
+background-color: #cccccc42;
+}
+
+ .container{
+  background-color: #fff29a;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5%;
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin-bottom: 16px;
+  max-width: 80%;
+  border-radius: 10px;
+  margin-left: 10%;
+ }
+
+.containerTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.containerImg {
+  width: 100%;
+  border-radius: 10px;
+  width: 50%;
+  margin-bottom: 16px;
+  margin-left: -5px;
+}
+
+.containerText {
+  
+  flex: 1;
+  order: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.img {
+  max-width: 80%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.title {
+  color: black;
+  margin-top: 2%;
+  margin-bottom: -4%;
+  text-align: center;
+  font-size: 52px;
+}
+
+.text {
+  text-align: justify;
+  margin-top: -23%;
+  margin-right: 10%;
+  margin-left: -15%;
+  font-size: 24px;
+  font-family: 'Roboto' ;
+}
+
+
+.fotosContainer{
+  display: flex;
+  margin-left: 43%;
+  margin-top: -10.8%;
+}
+
+.imgN{
+  width: 14%;
+  height: auto;
+  margin: 0 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1366px) {
+  .text {
+    text-align: justify;
+    margin-top: -7em;
+    margin-right: 10%;
+    margin-left: -15%;
+    font-size: 20px;
+    font-family: 'Roboto' ;
+  }
+  .fotosContainer{
+    display: flex;
+    margin-left: 43%;
+    margin-top: -11%;
+  }
+  
+  .imgN{
+    width: 13%;
+    height: auto;
+    margin: 0 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 1430px) {
+  .text {
+    font-size: 18px;
+  
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .text {
+    font-size: 18px;
+   
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .text {
+    font-size: 15px;
+   
+  }
+}
+
+
+@media screen and (max-width: 1570px) {
+  .text {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  .text {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .text {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .text {
+    font-size: 18px;
+   
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .text {
+    margin-top: -7em;
+    font-size: 20px;
+  }
+
+    .container{
+      height: 60%;
+     }
+
+     .fotosContainer{
+      display: flex;
+      margin-left: 9%;
+      margin-top: -16%;
+    }
+    
+    .imgN{
+      width: 14%;
+      height: auto;
+      margin: 0 20px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+}

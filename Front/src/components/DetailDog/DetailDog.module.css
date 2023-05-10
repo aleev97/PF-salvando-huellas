@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Cat Paw';
+  src: url('../../assets/Fuentes/Cat Paw.ttf') format('truetype');
+  /* Agrega más formatos de archivo si es necesario */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.containerAll {
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #cccccc42;
+  height: 90vh;
+}
+
+.container {
+  font-family: 'Nunito', sans-serif;
+  padding: 0 20px;
+}
+
+.cardContainer{
+display: flex;
+align-items: center;
+}
+
+.name{
+  font-size: 60px;
+  margin-left: 23.5rem;
+  margin-top: 1rem;
+}
+
+.imagen{
+  position: relative;
+ --size:380px;
+ width: var(--size);
+ height: var(--size);
+ border-radius: 50%;
+ margin-top: 8rem;
+ margin-left: 15rem;
+ border:  2px solid #d43535;
+}
+
+.imagen:hover{
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.616);
+}
+
+.description{
+  position: absolute;
+  border-radius: 0.5rem;
+  width: 50%;
+  height: 20rem;
+  display: flex;
+  align-items: start;
+  padding: 1rem;
+  justify-content: start;
+  flex-direction: column;
+  margin-left: 40rem;
+  margin-top: -26rem;
+  background-color: #f3df5d;
+  border: solid 2px #f1d72c;
+}
+
+.adoptame {
+  position: absolute;
+display:inline-block;
+justify-content: center;
+width: 45%;
+margin: 5px;
+margin-left: 41rem;
+margin-top: -8%;
+}
+
+.button{
+  background-color: #fe5535;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 10px;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.button:hover{
+  background-color: #d13d1f;
+}
+
+.p{
+  margin-left: -19%;
+}

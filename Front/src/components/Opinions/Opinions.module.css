@@ -1,0 +1,65 @@
+.container {
+  display: grid;
+  margin: 1% auto;
+  padding: 5%;
+  max-width: 60%;
+  border: 1px solid #ccc;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+}
+
+.resumen {
+  align-self: start;
+  justify-self: start;
+  margin-top: -3%;
+  width: 100%;
+  border-bottom: 2px solid #ccc;
+  
+}
+
+.clasificaciones {
+  align-self: start;
+  justify-self: start;
+  margin-top: 5%;
+  margin-right: 5% ;
+}
+
+.ratinglabel {
+  font-weight: bold;
+  margin-right: 5%;
+}
+
+.ratingvalue {
+  font-weight: bold;
+}
+
+.ratingcount {
+  margin-right: 5%;
+}
+
+.ratingstars {
+  color: green;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr;
+    padding: 3%;
+    max-width: 100%;
+  }
+  .resumen {
+    margin-top: 0;
+  }
+  .clasificaciones {
+    margin-top: 3%;
+    margin-right: 0;
+  }
+  .ratinglabel {
+    margin-right: 3%;
+  }
+}
+

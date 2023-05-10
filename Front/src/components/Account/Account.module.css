@@ -1,0 +1,179 @@
+  
+@font-face {
+  font-family: 'JosefinSans-Italic';
+  src: url('../../assets/Fuentes/JosefinSans-Italic.ttf') format('truetype');
+}
+  
+  .container  {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .perfil {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#ffa856, transparent);
+    margin-bottom: 1.25rem;
+  }
+
+
+
+  .perfilBody {
+    width: 70%;
+    position: relative;
+    max-width: 750px;
+  }
+
+  .titulo {
+    display: block;
+    width: 100%;
+    font-size: 2.5em;
+    margin-bottom: 0.5rem;
+  }
+
+  .texto {
+    color: #848484;
+    font-size: 1.2em;
+  }
+  
+  .perfilBio {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 1.25rem;
+    margin-top: 2%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  
+  .perfilUsuarioFooter {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    background-color: #fff;
+    border-radius: 5px;
+    width: 80rem;
+  }
+
+  .perfilUsuarioFooter2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    background-color: #fff;
+    border-radius:5px;
+    width: 80rem;
+    margin-top: 2%;
+  }
+
+ 
+
+  .button {
+    margin-top: 2%;
+      padding: 0.50rem;
+      border: 1px solid #cccccc;
+      border-radius: 0.25rem;
+      background-color: #fe5535;
+      color: #fff;
+      font-size: 1rem;
+      cursor: pointer;
+      width: 250px;
+      margin-left: 1%;
+    }
+  
+    .button:hover {
+      background-color: #d43535;
+    }
+    .buttonEditProfile{
+      display: flex;
+      justify-content: center;
+      padding: 0.50rem;
+      border: 1px solid #cccccc;
+      border-radius: 0.25rem;
+      background-color: #fe5535;
+      color: #fff;
+      font-size: 1rem;
+      cursor: pointer;
+      width: 250px;
+      margin-left: 40%;
+    }
+    .buttonEditProfile:hover{
+      background-color: #d43535;
+    }
+    
+    .notification {
+      position: fixed;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+      padding: 2rem;
+      font-size: 1.2rem;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-right: none;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }  
+
+    .compra{
+      border: 1px solid rgba(0, 0, 0, 0.575);
+      background-color: #8484842b;
+    }
+
+    .adopth3 {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin-top: -0.7%;
+      margin-left: -2%;
+      padding: 0.50rem;
+      border: 1px solid #cccccc;
+      border-radius: 0.25rem;
+      background-color: #fe5535;
+      color: #fff;
+      font-size: 1rem;
+      cursor: pointer;
+      width: 160px;
+    }
+
+    .h3 {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin-top: -0.7%;
+      margin-left: -2%;
+      padding: 0.50rem;
+      border: 1px solid #cccccc;
+      border-radius: 0.25rem;
+      background-color: #fe5535;
+      color: #fff;
+      font-size: 1rem;
+      cursor: pointer;
+      width: 160px;
+    }
+
+    .adopcionesContainer {
+      width: 100%;
+      margin-top: 15%;
+      margin-left: -4%; 
+    }
+
+    .containerButton {
+      margin-left: 10%;
+    }
+
+  
+.p {
+  border-bottom: 1px solid #ccc;
+}
